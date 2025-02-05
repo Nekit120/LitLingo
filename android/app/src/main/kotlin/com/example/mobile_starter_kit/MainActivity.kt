@@ -1,4 +1,4 @@
-package com.example.mobile_starter_kit
+package com.example.lit_lingo
 
 import io.flutter.embedding.android.FlutterActivity
 

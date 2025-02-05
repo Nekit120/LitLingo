@@ -2,7 +2,7 @@
 import 'dart:async';
 
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:mobile_starter_kit/core/domain/key_value_storage/storage_key/storage_key.dart';
+import 'package:lit_lingo/core/domain/key_value_storage/storage_key/storage_key.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract interface class KeyValueStorage {

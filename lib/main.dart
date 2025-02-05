@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
-import 'package:mobile_starter_kit/theme/theme_data.dart';
+import 'package:lit_lingo/theme/theme_data.dart';
 import 'core/domain/di/di_container.dart';
 import 'core/domain/intl/generated/l10n.dart';
 import 'core/presentation/keyboard_dismis.dart';

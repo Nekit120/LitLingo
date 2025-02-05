@@ -1,4 +1,4 @@
-# mobile_starter_kit
+# lit_lingo
 
 This is a starter template for a mobile application built with Flutter. This project contains all the essential components to kickstart your mobile app development with Flutter.
 
@@ -61,4 +61,4 @@ Template for working with authentication and token storage, supporting various a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mobile_starter_kit.git
+   git clone https://github.com/yourusername/lit_lingo.git

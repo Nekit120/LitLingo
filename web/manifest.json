@@ -1,6 +1,6 @@
 {
-    "name": "mobile_starter_kit",
-    "short_name": "mobile_starter_kit",
+    "name": "lit_lingo",
+    "short_name": "lit_lingo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

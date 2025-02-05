@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:mobile_starter_kit/core/data/model/validation_error_entry.dart';
+import 'package:lit_lingo/core/data/model/validation_error_entry.dart';
 
 part 'validation_error.g.dart';
 
