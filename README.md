@@ -49,13 +49,9 @@ Here are a few ways you can help:
 - Fix bugs or add new features.
 - Improve app performance or UI/UX.
 - Enhance translation accuracy or add more language support.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+- 
 ## Contact
 
 For any inquiries or suggestions, please contact:
-- Email: contact@litlingo.com
+- Email: manusha120@mail.com
 - GitHub: https://github.com/yourusername/lit-lingo
