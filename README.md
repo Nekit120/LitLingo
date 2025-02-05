@@ -1,64 +1,61 @@
-# lit_lingo
+# Lit Lingo - Book Translation App
 
-This is a starter template for a mobile application built with Flutter. This project contains all the essential components to kickstart your mobile app development with Flutter.
+Lit Lingo is a mobile application designed to help users translate words within books by simply tapping on them. The app integrates a seamless translation feature that enhances the reading experience for users who want to understand foreign words or phrases instantly while reading books.
 
-## Description
+## Features
 
-The project includes the following:
+- **Word Translation**: Tap on any word in the book to instantly get its translation.
+- **Multilingual Support**: Supports translations in multiple languages.
+- **Customizable UI**: Tailor the reading experience with customizable font sizes, themes, and more.
+- **Offline Mode**: Once downloaded, the app works without requiring an active internet connection for translations.
 
-### 1. **Project Structure Based on Clean Architecture**
+## Technologies Used
 
-Code organization with separation into layers (presentation, domain, data) to improve maintainability and scalability of the app.
+- **Android**: The app is built for Android using Java/Kotlin.
+- **Google Translate API**: For translation services.
+- **SQLite**: To store users' reading progress and saved translations.
+- **Firebase**: For cloud syncing of data (optional feature).
 
-### 2. **Dependency Injection (DI) Initialization**
+## Installation
 
-Integration with a DI container for convenient management of dependencies and their testing.
+### Prerequisites
 
-### 3. **State Management Template**
+Before you begin, ensure you have the following installed:
 
-Basic setup for managing app states using popular approaches, such as:
-- BLoC
-- Cubit
+- Android Studio
+- Java Development Kit (JDK)
+- An Android device or emulator
 
+### Steps to Run
 
-### 4. **Local Notifications Interface**
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/yourusername/lit-lingo.git
+    ```
+2. Open the project in Android Studio.
+3. Build and run the app on your device or emulator.
 
-Configured local notification mechanism using **Flutter Local Notifications**.
+## Usage
 
-### 5. **Data Storage Integration**
+1. **Open a Book**: Choose a book or document from the app's library.
+2. **Tap on Words**: Tap any word in the text, and its translation will pop up immediately.
+3. **Change Languages**: Select the desired translation language from the settings menu.
 
-Integration with local data storage solutions:
-- **SharedPreferences**
-- **SecureStorage**
-- **Sqflite**
+## Contributing
 
-For storing user settings and data.
+We welcome contributions! If you'd like to contribute, please fork the repository and submit a pull request.
 
-### 6. **Network Requests and Error Handling**
+Here are a few ways you can help:
+- Fix bugs or add new features.
+- Improve app performance or UI/UX.
+- Enhance translation accuracy or add more language support.
 
-The project is set up with **Dio** and its interceptors to handle network requests, including error handling for invalid certificates.
+## License
 
-### 7. **Firebase Integration (Optional)**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
 
-Basic integration with **Firebase** to use services like:
-
-- **Firebase Analytics**
-
-- **Firebase Crashlytics**
-
-### 8. **Theme Customization Flexibility**
-
-Ability to dynamically switch the app's theme while preserving user settings.
-
-### 9. **Authentication System**
-
-Template for working with authentication and token storage, supporting various authentication methods.
-
----
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/lit_lingo.git
+For any inquiries or suggestions, please contact:
+- Email: contact@litlingo.com
+- GitHub: https://github.com/yourusername/lit-lingo
