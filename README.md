@@ -54,4 +54,4 @@ Here are a few ways you can help:
 
 For any inquiries or suggestions, please contact:
 - Email: manusha120@mail.com
-- GitHub: https://github.com/yourusername/lit-lingo
+- GitHub: https://github.com/Nekit120/LitLingo
