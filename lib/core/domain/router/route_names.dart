@@ -1,3 +1,7 @@
 class RouteNames {
-  static const main = "main";
+  static const main = "stateful_navigator";
+  static const books = "books";
+  static const myBooks = "myBooks";
+  static const search = "search";
+  static const settings = "settings";
 }

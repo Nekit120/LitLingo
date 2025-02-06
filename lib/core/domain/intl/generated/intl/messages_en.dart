@@ -1,6 +1,6 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
 // This is a library that provides messages for a en locale. All the
-// messages from the main program should be duplicated here with the same
+// messages from the stateful_navigator program should be duplicated here with the same
 // function name.
 
 // Ignore issues from commonly used lints in this file.
@@ -98,7 +98,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "loginOrPasswordIsWrong":
             MessageLookupByLibrary.simpleMessage("Login or password is wrong"),
-        "main": MessageLookupByLibrary.simpleMessage("Main"),
+        "stateful_navigator": MessageLookupByLibrary.simpleMessage("Main"),
         "min": MessageLookupByLibrary.simpleMessage("min."),
         "mobileAppUserCurrentLenguage": MessageLookupByLibrary.simpleMessage(
             "The application will use the selected language from this list."),

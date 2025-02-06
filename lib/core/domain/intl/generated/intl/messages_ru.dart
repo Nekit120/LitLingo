@@ -1,6 +1,6 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
 // This is a library that provides messages for a ru locale. All the
-// messages from the main program should be duplicated here with the same
+// messages from the stateful_navigator program should be duplicated here with the same
 // function name.
 
 // Ignore issues from commonly used lints in this file.
@@ -101,7 +101,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "login": MessageLookupByLibrary.simpleMessage("Логин"),
         "loginOrPasswordIsWrong":
             MessageLookupByLibrary.simpleMessage("Неверный логин или пароль"),
-        "main": MessageLookupByLibrary.simpleMessage("Главная"),
+        "stateful_navigator": MessageLookupByLibrary.simpleMessage("Главная"),
         "min": MessageLookupByLibrary.simpleMessage("мин."),
         "mobileAppUserCurrentLenguage": MessageLookupByLibrary.simpleMessage(
             "Приложение будет использовать выбранный язык из этого списка."),

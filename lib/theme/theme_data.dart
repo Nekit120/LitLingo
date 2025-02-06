@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
 import 'custom_text_style.dart';
-import 'light_theme_colors.dart';
+import 'dark_theme_colors.dart';
 
-final theme = ThemeData(
-  fontFamily: 'Roboto',
+final theme = ThemeData.dark().copyWith(
   popupMenuTheme: PopupMenuThemeData(
-    color: LightThemeColors.backgroundWhite,
-    textStyle: CustomTextStyle.body14Regular,
+    color: DarkThemeColors.background,
+    textStyle: CustomTextStyle.body14Regular.copyWith(
+      color: DarkThemeColors.textColorLight,
+    ),
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(8.0),
     ),
@@ -16,14 +17,17 @@ final theme = ThemeData(
     style: ButtonStyle(
       backgroundColor: WidgetStateProperty.resolveWith<Color>((states) {
         if (states.contains(WidgetState.disabled)) {
-          return LightThemeColors.generalPrimaryDisabled;
+          return DarkThemeColors.generalPrimaryDisabled;
         }
-        return LightThemeColors.generalPrimary;
+        return DarkThemeColors.generalPrimary;
       }),
     ),
   ),
-  scaffoldBackgroundColor: Colors.white,
+  scaffoldBackgroundColor: DarkThemeColors.background,
   appBarTheme: const AppBarTheme(
-    backgroundColor: Colors.white,
+    backgroundColor: DarkThemeColors.background,
+  ),
+  buttonTheme: const ButtonThemeData(
+    buttonColor: DarkThemeColors.generalPrimary,
   ),
 );

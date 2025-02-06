@@ -114,7 +114,7 @@ class S {
   String get main {
     return Intl.message(
       'Main',
-      name: 'main',
+      name: 'stateful_navigator',
       desc: '',
       args: [],
     );
