@@ -16,7 +16,7 @@ class NavigationWidget extends StatefulWidget {
 }
 
 class _NavigationWidgetState extends State<NavigationWidget> {
-  int _index = 0;
+  int _index = 1;
 
   void _onTap() {
     switch (_index) {
