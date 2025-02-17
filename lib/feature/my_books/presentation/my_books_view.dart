@@ -11,6 +11,6 @@ class MyBooksView extends StatefulWidget {
 class _MyBooksViewState extends State<MyBooksView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return const Scaffold();
   }
 }

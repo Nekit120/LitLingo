@@ -1,6 +1,10 @@
 import 'dart:developer';
+import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:go_router/go_router.dart';
+import 'package:lit_lingo/feature/books/data/repository/book_repository_impl.dart';
+import 'package:lit_lingo/feature/books/data/source/books_remote_data_source.dart';
+import 'package:lit_lingo/feature/read/presentation/read_book_page.dart';
 import 'package:lit_lingo/feature/settings/presentation/settings_page.dart';
 import 'package:reg_it_abstract/reg_it_abstract.dart';
 
@@ -20,6 +24,13 @@ class DIContainer implements Registry {
   GoRouter _initRouter() => GoRouter(
         initialLocation: "/${RouteNames.books}",
         routes: [
+          GoRoute(
+            name: RouteNames.read,
+            path: "/${RouteNames.read}",
+            builder: (context, state) {
+              return const ReadBookPage();
+            },
+          ),
           StatefulShellRoute.indexedStack(
               builder: (context, state, navigationShell) {
                 return HomePage(child: navigationShell);
@@ -30,7 +41,10 @@ class DIContainer implements Registry {
                     name: RouteNames.books,
                     path: "/${RouteNames.books}",
                     builder: (context, state) {
-                      return const BooksPage();
+                      return BooksPage(
+                        bookRepository:
+                            DIContainer.instance.get<BookRepositoryImpl>(),
+                      );
                     },
                   ),
                 ]),
@@ -74,7 +88,11 @@ class DIContainer implements Registry {
     final settingsService = AppSettingsBloc(
         AppSettingsState(locale: appLocal ?? 0),
         secureStorage: keyValueStorage);
-
+    final bookClient = Dio(BaseOptions(baseUrl: "https://gutendex.com"));
+    final booksRemoteDataSource = BooksRemoteDataSource(bookClient);
+    final bookRepository =
+        BookRepositoryImpl(booksRemoteDataSource: booksRemoteDataSource);
+    put(SingletonRegistrar(bookRepository));
     put(SingletonRegistrar(settingsService));
   }
 

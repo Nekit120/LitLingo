@@ -1,0 +1,13 @@
+[33m077e650[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbooks[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{0}: reset: moving to HEAD
+[33m077e650[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbooks[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{1}: checkout: moving from dev to books
+[33m077e650[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbooks[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{2}: commit: initial steps and add bottomNavBar
+[33m9fb12ab[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{3}: checkout: moving from main to dev
+[33m9fb12ab[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{4}: checkout: moving from вкм to main
+[33m9fb12ab[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{5}: checkout: moving from main to вкм
+[33m9fb12ab[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{6}: merge origin/main: Fast-forward
+[33mc20f1af[m HEAD@{7}: commit: refactoring readme
+[33mf3b1dc3[m HEAD@{8}: commit: refactoring readme
+[33ma8057fe[m HEAD@{9}: checkout: moving from dev to main
+[33ma8057fe[m HEAD@{10}: checkout: moving from main to dev
+[33ma8057fe[m HEAD@{11}: commit: refactoring
+[33m6f4543d[m HEAD@{12}: clone: from https://github.com/Nekit120/mobile_starter_kit.git
